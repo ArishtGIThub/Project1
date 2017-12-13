@@ -50,6 +50,7 @@ public class StringPermutations {
 		temp = charArray[i] ;
 		charArray[i] = charArray[j];
 		charArray[j] = temp;
+		System.out.println(temp);
 		return String.valueOf(charArray);
 	}
 
